@@ -22,11 +22,11 @@
 
     <div id="menu">
         <div class="pure-menu">
-            <a class="pure-menu-heading" href="#">Accommodation Office</a>
+            <a class="pure-menu-heading" href="#">Accommodation</a>
 
             <ul class="pure-menu-list">
                 <li class="pure-menu-item"><a href="./accommodationStaff.jsp"
-                                              class="pure-menu-link">accommodationStaff</a></li>
+                                              class="pure-menu-link">accommodation</a></li>
                 <li class="pure-menu-item"><a href="./delete.jsp" class="pure-menu-link">delete</a></li>
                 <li class="pure-menu-item"><a href="./index.jsp" class="pure-menu-link">index</a></li>
                 <li class="pure-menu-item"><a href="./presentReport.jsp" class="pure-menu-link">presentReport</a></li>
