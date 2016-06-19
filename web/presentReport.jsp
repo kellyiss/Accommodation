@@ -45,48 +45,48 @@
 
             <h2 class="content-subhead">present info</h2>
 
-            <form action="servlet/addServlet" autocomplete="on" method="post" class="pure-form pure-form-aligned">
-                <fieldset>
-                    <div class="pure-control-group">
-                        <label for="RESULT_TextField-1">Staff Number:</label>
-                        <input type="text" name="staffno" class="text_field" id="RESULT_TextField-1">
-                    </div>
+            <form action="servlet/Present" autocomplete="on" method="post" class="pure-form">
+                <label for="RESULT_RadioButton-1_0" class="pure-radio">
+                    <input type="radio" name="present" value="hallManagerReport" id="RESULT_RadioButton-1_0"/>
+                    hall manager report
+                </label>
 
-                    <div class="pure-control-group">
-                        <label for="RESULT_TextField-2">Name:</label>
-                        <input type="text" name="name" class="text_field" id="RESULT_TextField-2">
-                    </div>
+                <label for="RESULT_RadioButton-1_1" class="pure-radio">
+                    <input type="radio" name="present" value="leaseReport" id="RESULT_RadioButton-1_1"/>
+                    lease report
+                </label>
 
-                    <div class="pure-control-group">
-                        <label for="RESULT_TextField-3">home address:</label>
-                        <input type="text" name="address" class="text_field" id="RESULT_TextField-3">
-                    </div>
+                <label for="RESULT_RadioButton-1_2" class="pure-radio">
+                    <input type="radio" name="present" value="leaseInSummer" id="RESULT_RadioButton-1_2"/>
+                    lease information in summer semester
+                </label>
 
-                    <div class="pure-control-group">
-                        <label for="RESULT_TextField-4">birthday:</label>
-                        <input type="text" name="birthday" class="text_field" id="RESULT_TextField-4">
-                    </div>
+                <label for="RESULT_RadioButton-1_3" class="pure-radio">
+                    <input type="radio" name="present" value="unqualified" id="RESULT_RadioButton-1_3"/>
+                    unqualified ﬂat inspections
+                </label>
 
-                    <div class="pure-control-group">
-                        <label for="RESULT_TextField-5">sex:</label>
-                        <input type="text" name="sex" class="text_field" id="RESULT_TextField-5">
-                    </div>
+                <label for="RESULT_RadioButton-1_4" class="pure-radio">
+                    <input type="radio" name="present" value="waiting" id="RESULT_RadioButton-1_4"/>
+                    students who are in waiting line
+                </label>
 
-                    <div class="pure-control-group">
-                        <label for="RESULT_TextField-6">position:</label>
-                        <input type="text" name="position" class="text_field" id="RESULT_TextField-6">
-                    </div>
+                <label for="RESULT_RadioButton-1_5" class="pure-radio">
+                    <input type="radio" name="present" value="rent" id="RESULT_RadioButton-1_5"/>
+                    minimum\maximum\average rent of halls
+                </label>
 
-                    <div class="pure-control-group">
-                        <label for="RESULT_TextField-7">location:</label>
-                        <input type="text" name="location" class="text_field" id="RESULT_TextField-7">
-                    </div>
+                <label for="RESULT_RadioButton-1_6" class="pure-radio">
+                    <input type="radio" name="present" value="total" id="RESULT_RadioButton-1_6"/>
+                    total place number of halls
+                </label>
 
+                <label for="RESULT_RadioButton-1_7" class="pure-radio">
+                    <input type="radio" name="present" value="age" id="RESULT_RadioButton-1_7"/>
+                    total place number of halls
+                </label>
 
-                    <div class="pure-controls">
-                        <input type="submit" name="Submit" value="Submit" class="pure-button pure-button-primary"/>
-                    </div>
-                </fieldset>
+                <input type="submit" name="Submit" value="Submit" class="pure-button pure-button-primary"/>
             </form>
 
         </div>
