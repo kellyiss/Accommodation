@@ -26,7 +26,6 @@
                 <li class="pure-menu-item"><a href="./accommodationStaff.jsp"
                                               class="pure-menu-link">accommodation</a></li>
                 <li class="pure-menu-item"><a href="./delete.jsp" class="pure-menu-link">delete</a></li>
-                <li class="pure-menu-item"><a href="./index.jsp" class="pure-menu-link">index</a></li>
                 <li class="pure-menu-item"><a href="./presentReport.jsp" class="pure-menu-link">presentReport</a></li>
                 <li class="pure-menu-item"><a href="./search.jsp" class="pure-menu-link">search</a></li>
             </ul>
